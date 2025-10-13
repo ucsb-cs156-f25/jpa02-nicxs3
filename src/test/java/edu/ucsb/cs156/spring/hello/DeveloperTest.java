@@ -33,4 +33,57 @@ public class DeveloperTest {
         assertEquals("nicxs3", Developer.getGithubId());
     }
 
+    @Test
+    public void getTeam_returns_team_with_correct_name(){
+        Team t = Developer.getTeam();
+        assertEquals("f25-01", t.getName());
+    }
+
+    @Test
+    public void getTeam_returns_team_with_correct_members() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("JOHN JAMES"),"Team should contain JOHN JAMES");
+        assertTrue(t.getMembers().contains("NATHAN TUAN"),"Team should contain NATHAN TUAN");
+        assertTrue(t.getMembers().contains("NIC XAVIER"),"Team should contain NIC XAVIER");
+        assertTrue(t.getMembers().contains("NOAH ZACHARY"),"Team should contain NOAH ZACHARY");
+        assertTrue(t.getMembers().contains("WILLIAM"),"Team should contain WILLIAM");
+        assertTrue(t.getMembers().contains("YI"),"Team should contain YI");
+    }
+    
+    @Test
+    public void getTeam_returns_team_with_John() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("JOHN JAMES"),"Team should contain JOHN JAMES");
+    }
+
+    @Test
+    public void getTeam_returns_team_with_Nathan() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("NATHAN TUAN"),"Team should contain NATHAN TUAN");
+    }
+
+    @Test
+    public void getTeam_returns_team_with_Nicolas() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("NIC XAVIER"),"Team should contain NIC XAVIER");
+    }
+
+    @Test
+    public void getTeam_returns_team_with_Noah() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("NOAH ZACHARY"),"Team should contain NOAH ZACHARY");
+    }
+
+    @Test
+    public void getTeam_returns_team_with_William() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("WILLIAM"),"Team should contain WILLIAM");
+    }
+
+    @Test
+    public void getTeam_returns_team_with_Yi() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("YI"),"Team should contain YI");
+    }
+
 }
