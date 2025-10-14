@@ -1,11 +1,6 @@
 # jpa02-nicxs3
 
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-f25/jpa02-cgaucho
-
-Repo: https://ucsb-cs156-f25/STARTER-jpa02
+Repo: https://github.com/ucsb-cs156-f25/jpa02-nicxs3
 
 Deployed at:  https://jpa02-nicxs3.dokku-01.cs.ucsb.edu
 
