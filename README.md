@@ -2,7 +2,7 @@
 
 Repo: https://github.com/ucsb-cs156-f25/jpa02-nicxs3
 
-Deployed at:  https://jpa02-nicxs3.dokku-01.cs.ucsb.edu
+Deployed at: https://jpa02-nicxs3.dokku-01.cs.ucsb.edu
 
 
 # About this repo
